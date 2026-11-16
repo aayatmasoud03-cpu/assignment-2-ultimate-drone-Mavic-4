@@ -1,0 +1,1003 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*             Navbar    */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f0f7;
+    z-index: 900;
+    padding-bottom: 15px;
+}
+
+.navbar .container .nav-text {
+    float: left;
+    padding-top: 15px;
+}
+
+
+
+.navbar .container .nav-text h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin: 0;
+    padding-top: 8px;
+    display: inline-block;
+}
+
+.navbar .container .nav-links {
+    float: right;
+}
+
+.navbar .container .nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar .container .nav-links ul li {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 18px;
+}
+
+.navbar .container .nav-links ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #222;
+    text-decoration: none;
+}
+
+.navbar .container .nav-links ul li.f-home a {
+    color: #8a4fff;
+    border-bottom: 2px solid #8a4fff;
+    padding-bottom: 5px;
+}
+
+/*         Product-header      */
+
+.product-header {
+    margin-top: 100px;
+    padding: 50px 0;
+}
+
+/*                            Product-left      */
+.product-header .container .product-left {
+    float: left;
+    width: 50%;
+    position: relative;
+    border: 1px solid #e0e0e0;
+    padding: 30px 30px 60px 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+
+.product-header .container .product-left img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.product-header .container .product-left .offer {
+    top: 50px;
+    left: 50px;
+    background-color: #8a4fff;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+}
+
+/*           Product-right     */
+.product-header .container .product-right {
+    float: right;
+    width: 48%;
+}
+
+.product-header .container .product-right .badges {
+    margin-bottom: 25px;
+}
+
+.product-header .container .product-right .badges span {
+    background-color: #be9eff;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.product-header .container .product-right {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.product-header .container .product-right h1 .purple {
+    color: #8a4fff;
+}
+
+.product-header .container .product-right .product-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.product-header .container .product-right .new-price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #222222;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.product-header .container .product-right .old-price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    color: #222222;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.product-header .container .product-right .red-save {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ff4d4d;
+    background-color: rgba(255, 230, 230, 01);
+    padding: 6px 12px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.product-header .container .product-right p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #222222;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.product-header .container .product-right .button-purple {
+    background-color: #8a4fff;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    padding: 16px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
+.product-header .container .product-right .wishlist {
+    background-color: #fff;
+    color: #222222;
+    width: 100%;
+    padding: 16px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 1px solid #cccccc;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+
+/*                           My Features             */
+
+.features-section {
+    background-color: #f6f5fa;
+    margin-top: 60px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.features-section .container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.features-section .container h2 .h2-color {
+    color: #8a4fff;
+}
+
+.features-section .container .p-features {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*                                          Card Purple */
+.features-section .container .card-purple {
+    float: left;
+    width: 31%;
+    margin-right: 3.5px;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8f3;
+    border-radius: 24px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.features-section .container .card-purple .square-purple {
+    width: 45px;
+    height: 45px;
+    background-color: #ece6ff;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.features-section .container .card-purple .purple {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #8a4fff;
+    margin-bottom: 12px;
+}
+
+.features-section .container .card-purple h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e1e1e;
+    margin-bottom: 12px;
+}
+
+.features-section .container .card-purple p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.7;
+    margin-bottom: 40px;
+
+}
+
+.features-section .container .card-purple .plum {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #8a4fff;
+    border-top: 1px solid #ece6ff;
+    padding-top: 15px;
+    margin-left: 5px;
+    display: block;
+}
+
+.features-section .container .card-purple .charcoal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #888888;
+    padding-top: 10px;
+}
+
+/*                                        Card Cyan */
+.features-section .container .card-cyan {
+    float: left;
+    width: 31%;
+    margin-right: 3.5px;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8f3;
+    border-radius: 24px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.features-section .container .card-cyan .square-cyan {
+    width: 45px;
+    height: 45px;
+    background-color: #e6f7fd;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.features-section .container .card-cyan .cyan {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #2bb3e3;
+    margin-bottom: 12px;
+}
+
+.features-section .container .card-cyan h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e1e1e;
+    margin-bottom: 12px;
+}
+
+.features-section .container .card-cyan p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.features-section .container .card-cyan .plum {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #2bb3e3;
+    display: block;
+    border-top: 1px solid #e6f7fd;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.features-section .container .card-cyan .charcoal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #888888;
+    margin: 0;
+}
+
+/*                                         Card Green */
+.features-section .container .card-green {
+    float: left;
+    width: 31%;
+    margin-right: 0;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8f3;
+    border-radius: 24px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.features-section .container .card-green .square-green {
+    width: 45px;
+    height: 45px;
+    background-color: #e6f9f2;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.features-section .container .card-green .green {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #10b981;
+    margin-bottom: 12px;
+}
+
+.features-section .container .card-green h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e1e1e;
+    margin-bottom: 12px;
+}
+
+.features-section .container .card-green p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.features-section .container .card-green .plum {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #10b981;
+    display: block;
+    border-top: 1px solid #e6f9f2;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.features-section .container .card-green .charcoal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #888888;
+    margin: 0;
+}
+
+/*                                          Card Orange */
+.features-section .container .card-orange {
+    float: left;
+    width: 31%;
+    margin-right: 3.5px;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8f3;
+    border-radius: 24px;
+    padding: 30px;
+    box-sizing: border-box;
+    clear: left;
+}
+
+.features-section .container .card-orange .square-orange {
+    width: 45px;
+    height: 45px;
+    background-color: #fff1e6;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.features-section .container .card-orange .orange {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #f97316;
+    margin-bottom: 12px;
+}
+
+.features-section .container .card-orange h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e1e1e;
+    margin-bottom: 12px;
+}
+
+.features-section .container .card-orange p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.features-section .container .card-orange .plum {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #f97316;
+    display: block;
+    border-top: 1px solid #fff1e6;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.features-section .container .card-orange .charcoal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #888888;
+    margin: 0;
+}
+
+/*                                        Card Blue */
+.features-section .container .card-blue {
+    float: left;
+    width: 31%;
+    margin-right: 3.5px;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8f3;
+    border-radius: 24px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.features-section .container .card-blue .square-blue {
+    width: 45px;
+    height: 45px;
+    background-color: #e6edfd;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.features-section .container .card-blue .blue {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #1d4ed8;
+    margin-bottom: 12px;
+}
+
+.features-section .container .card-blue h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e1e1e;
+    margin-bottom: 12px;
+}
+
+.features-section .container .card-blue p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.features-section .container .card-blue .plum {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #1d4ed8;
+    display: block;
+    border-top: 1px solid #e6edfd;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.features-section .container .card-blue .charcoal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #888888;
+    margin: 0;
+}
+
+/*                                       Card Red */
+.features-section .container .card-red {
+    float: left;
+    width: 31%;
+    margin-right: 0;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8f3;
+    border-radius: 24px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.features-section .container .card-red .square-red {
+    width: 45px;
+    height: 45px;
+    background-color: #fde8e8;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.features-section .container .card-red .red {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #dc2626;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.features-section .container .card-red h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e1e1e;
+    margin-bottom: 12px;
+}
+
+.features-section .container .card-red p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.features-section .container .card-red .plum {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #dc2626;
+    display: block;
+    border-top: 1px solid #fde8e8;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.features-section .container .card-red .charcoal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #888888;
+    margin: 0;
+}
+
+/*                                  Purple Banner    */
+
+.features-section .purple-banner {
+    background-color: #8a4fff;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 24px;
+}
+
+.purple-banner .container .banner-left {
+    float: left;
+    width: 65%;
+}
+
+.purple-banner .container .banner-left h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #be9eff;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.purple-banner .container .banner-left h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.purple-banner .container .banner-left p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #e8e8f3;
+    margin: 0;
+}
+
+.purple-banner .container .banner-right {
+    float: right;
+    width: 30%;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.purple-banner .container .banner-right .button-white {
+    background-color: #ffffff;
+    color: #8a4fff;
+    border: none;
+    padding: 14px 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+/*                                               Related  */
+.related-section {
+    background-color: #ffffff;
+    
+    margin-top: 100px;
+    padding: 80px 0;
+}
+
+
+.related-section .container .related-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.related-section .container .related-header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 12px;
+}
+
+
+.related-section .container .related-header h2 .related-h2 {
+    color: #8a4fff;
+}
+
+
+.related-section .container .related-header .related p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #666666;
+    margin: 0;
+}
+
+
+.related-section .container .related-grid {
+    width: 100%;
+}
+
+
+.related-section .container .related-grid .pro-card {
+    float: left;
+    width: 23%;
+    margin-right: 2.6%;
+    margin-bottom: 30px;
+
+    background-color: #ffffff;
+    border: 1px solid #eceeede0;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+
+
+.related-section .container .related-grid .last-card {
+    margin-right: 0; 
+}
+
+.related-section .container .related-grid .pro-card .badge-accessory {
+     position: absolute; 
+    top: 35px;
+    left: 35px; 
+    color: #ffffff; 
+    padding: 5px 12px; 
+    border-radius: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    z-index: 10; 
+}
+
+.related-section .container .related-grid .pro-card .badge-essential {
+     position: absolute; 
+    top: 35px;
+    left: 35px; 
+    color: #ffffff; 
+    padding: 5px 12px; 
+    border-radius: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    z-index: 10; 
+}
+.related-section .container .related-grid .pro-card .badge-power {
+     position: absolute; 
+    top: 35px;
+    left: 35px; 
+    color: #ffffff; 
+    padding: 5px 12px; 
+    border-radius: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    z-index: 10; 
+}
+.related-section .container .related-grid .pro-card .badge-safety {
+    position: absolute; 
+    top: 35px;
+    left: 35px; 
+    color: #ffffff; 
+    padding: 5px 12px; 
+    border-radius: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    z-index: 10; 
+}
+
+
+.related-section .container .related-grid .pro-card .badge-accessory {
+    background-color:
+        #2bb3e3;
+}
+
+.related-section .container .related-grid .pro-card .badge-essential {
+    background-color: #10b981;
+}
+
+.related-section .container .related-grid .pro-card .badge-power {
+    background-color: #f97316;
+}
+
+.related-section .container .related-grid .pro-card .badge-safety {
+    background-color: #dc2626;
+}
+
+
+
+.related-section .container .related-grid .pro-card .pro-image {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 15px;
+}
+
+.related-section .container .related-grid .pro-card .pro-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+
+.related-section .container .related-grid .pro-card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 8px;
+}
+
+
+.related-section .container .related-grid .pro-card .product-desc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.5;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+
+.related-section .container .related-grid .pro-card .pro-footer {
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+.related-section .container .related-grid .pro-card .pro-footer .product-price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+    float: left;
+    padding-top: 6px;
+}
+
+.related-section .container .related-grid .pro-card .pro-footer .add-to {
+    background-color: #8a4fff;
+    color: #ffffff;
+    float: right;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.related-section .view-all-holder {
+    width: 100%;
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+
+.related-section .view-all-holder .view-all {
+    display: inline-block; 
+    background-color: transparent; 
+    color: #8a4fff; 
+    border: 2px solid #8a4fff; 
+    padding: 14px 32px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px; 
+    
+}
+
+.main-footer {
+    background-color: #0b111e;
+    padding: 60px 0 30px 0;
+    margin-top: 100px;
+}
+
+
+.main-footer .container .footer-top .footer-col {
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+    box-sizing: border-box;
+}
+
+.main-footer .container .footer-top .col-logo {
+    width: 28%;
+}
+
+
+.main-footer .container .footer-top .col-logo .footer-dji {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.main-footer .container .footer-top .col-logo .footer-desc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #99a1b1;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.main-footer .container .footer-top .footer-col h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.main-footer .container .footer-top .footer-col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-footer .container .footer-top .footer-col ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #99a1b1;
+    margin-bottom: 12px;
+}
+
+.main-footer .container .footer-top .col-logo .footer-socials .social-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    float: left;
+}
+
+
+.main-footer .container .footer-bottom {
+    margin-top: 50px;
+    border-top: 1px solid #1e293b;
+    padding-top: 30px;
+}
+
+.main-footer .container .footer-bottom .footer-left-text {
+    float: left;
+}
+
+.main-footer .container .footer-bottom .footer-left-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #64748b;
+    margin: 0;
+}
+
+.main-footer .container .footer-bottom .footer-right-cards {
+    float: right;
+}
+
+
+.main-footer .container .footer-bottom .footer-right-cards .pay-img {
+    width: 44px;
+    height: 28px;
+    margin-left: 12px;
+    float: left;
+    border-radius: 4px;
+}
